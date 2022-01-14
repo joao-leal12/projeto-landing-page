@@ -1,0 +1,183 @@
+
+@keyframes navegacao{
+
+    to{
+
+        padding: 0;
+        color: transparent;
+
+
+    }
+
+
+    from{
+
+        padding: 12px;
+        text-decoration: none;
+        color: var(--cor01);
+
+    }
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+:root{
+    
+    --cor01: #FFF2E7;;
+    --cor02: #ECD6C4;
+    --cor03:  #2F2325;;
+    --cor04: #FFF2EF;
+    --cor05: #ECD6C4;
+    --cor06: #fff2e7a4;
+
+
+}
+body,html{
+
+    
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-family: sans-serif;
+
+
+}
+
+
+header{
+  
+   
+   border-bottom: 1px solid var(--cor06);
+    padding-bottom: 17px;
+}
+
+    header nav a:hover{
+
+        color: var(--cor03);
+        background-color: var(--cor01);
+        padding: 8px 12px;
+        border-radius: 12px;
+
+
+    }
+
+.center{
+
+    max-height: 100px;
+    max-width: 1280px;
+    min-width: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo{
+    padding: 12px;
+    height: 72px;
+
+}
+
+nav{
+    padding: 5px;
+
+
+}
+nav a{
+
+    padding: 12px;
+    text-decoration: none;
+    color: var(--cor01);
+    animation-name: navegacao;
+    animation-duration: 4s;
+    
+    animation-iteration-count: 1;
+    animation-direction: reverse;
+
+}
+
+
+main{
+    max-width: 1280px;
+    min-width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+     flex-wrap: wrap;
+    
+}
+
+main .conteudo{ 
+
+    
+    color: var(--cor04);
+
+}
+main .conteudo h2{
+
+    font-size: 64px;
+    color: var(--cor04);
+    margin-bottom: 10px;
+
+}
+
+
+main .conteudo a{
+    font-weight: bold;
+    color: var(--cor03);
+    text-decoration: none;
+    background-color: var(--cor04);
+    border-radius: 4px;
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top: 15px;
+
+}
+
+
+main .conteudo a:hover{
+
+    padding-left: 25px;
+     transition: all 3s;
+
+
+}
+
+section{
+
+    margin-top: 50px;
+    text-align: center;
+    padding: 15px;
+    color: var(--cor01);
+}
+
+
+section h3{
+    border-top: 1px solid var(--cor06);
+    padding-bottom: 15px;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+section p{
+    padding-bottom: 12px;
+
+
+
+}
+
+
+footer{
+
+    border-top: 1px solid var(--cor06);
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+
+}
+
